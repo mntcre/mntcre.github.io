@@ -1,17 +1,32 @@
 
 body {
-  background-color: lightblue;
+  background-color: #ededed;
 }
 
 h1 {
-  color: white;
-  font-weight: lighter;
-  font-family: verdana;
+  color: darkgrey;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: garamond;
   text-align: center;
+  margin-bottom: -20px;
+
 }
+
+h2 {
+
+  color: grey;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: garamond;
+  text-align: center;
+  font-style: italic;
+}
+
 
 p {
   font-family: verdana;
+  font-weight: lighter;
   font-size: 20px;
   text-align: center;
 }
