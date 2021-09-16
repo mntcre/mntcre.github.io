@@ -1,9 +1,12 @@
 
 body {
-  background-color: #ededed;
+  margin:0;
+  padding: 0;
+  background-color: #eeeeee;
 }
 
 h1 {
+  margin-top:0;
   color: darkgrey;
   font-weight: normal;
   font-size: 50px;
@@ -14,7 +17,6 @@ h1 {
 }
 
 h2 {
-
   color: grey;
   font-weight: normal;
   font-size: 20px;
@@ -25,8 +27,17 @@ h2 {
 
 
 p {
+  color:#ededed;
   font-family: verdana;
   font-weight: lighter;
   font-size: 20px;
   text-align: center;
+}
+
+.shape {
+  height: 150px;
+  background-color: darkgrey;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
 }
