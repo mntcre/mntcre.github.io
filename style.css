@@ -1,1 +1,17 @@
 
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-family: verdana;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
