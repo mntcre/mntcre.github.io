@@ -71,12 +71,19 @@ li a:hover {
   margin: 0 auto;
 }
 
-canvas {
-  display : block;
-  width : 280px;
-  height : 210px;
-  margin : auto;
-  padding : 0;
-  border : none;
-  background-color : black;
+.container {
+  height: auto;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 400px 400px;
+  grid-gap: 20px;
+}
+
+
+.griditem {
+  height:100%;
+  width:100%;
+  text-align: center;
+  background-color: darkgrey;
 }
