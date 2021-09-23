@@ -8,6 +8,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--light);
+  position:relative;
+  min-height: 100vh;
 }
 
 #parallax {
@@ -44,7 +46,7 @@ h1 {
   position: relative;
   color: var(--dark);
   font-weight: normal;
-  font-size: 20px;
+  font-size:28px;
   font-family: garamond;
   text-align: center;
   font-style: italic;
@@ -60,7 +62,7 @@ h2 {
 }
 
 p {
-  color: var(--light);
+  color: var(--darker);
   font-family: garamond;
   font-weight: normal;
   font-size: 25px;
@@ -96,11 +98,18 @@ nav ul li a:active {
   background-color: var(--darker);
 }
 
+#content_wrap{
+  min-height:100vh;
+  padding-bottom: 2.5rem;
+}
 
 .shape {
   padding: 10px;
   height: 150px;
-  background-color: var(--dark);
+  border-width: thick;
+  border-color: var(--dark);
+  border-top: double;
+  border-bottom: double;
   border-radius: 20px;
   width: 80%;
   margin: 0 auto;
