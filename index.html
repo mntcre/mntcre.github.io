@@ -7,35 +7,19 @@
   <style type="text/css" media="all">
     @import "style.css";
   </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
 </head>
 
 <body>
 
-  <!-- header -->
-  <header>
-    <div style="height:200px; background-color: #eeeeee; width: 100%; margin-bottom: 0px" class="header">
-      <h1 id="head1">Bild.Element</h1>
-      <h2 id="head2">Doodelings with Code and Color</h2>
 
-      <div style="text-align:center; margin-bottom:30px" class="svg-container">
-        <svg id="tri" height="55" width="500">
-          <polygon points="125,5 375,5 250,50" style="fill:none;stroke:darkgrey;stroke-width:2" />
-        </svg>
-      </div>
-    </div>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="interactive.html">Interactive Doodles</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
+  <div id="header"></div>
 
 
   <div class="shape">
@@ -48,6 +32,8 @@
       mollit anim id est laborum.
     <p>
   </div>
+
+  <div id="footer"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="script.js"></script>
